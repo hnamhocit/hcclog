@@ -1,7 +1,7 @@
 # **HNLOG**
 - A simple colorful logging library for javascript with typescript support <br />
-- ![Code](./previews/2.png) <br />
-- ![Preview](./previews/1.png) <br />
+- ![Code](previews/2.png) <br />
+- ![Preview](previews/1.png) <br />
 
 ## **Installation** ⬇️
 - `bun add hnlog` or `npm i hnlog`
