@@ -1,0 +1,31 @@
+{
+  "name": "hcclog",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/bun": "latest",
+    "nodemon": "^3.1.9",
+    "rollup": "^4.39.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "nodemon --exec 'bun run src/index.ts' src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1",
+    "strip-ansi": "^7.1.0"
+  }
+}
