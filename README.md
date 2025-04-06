@@ -1,4 +1,4 @@
-# [**HNLOG**](https://github.com/hnamhocit/hcclog)
+# [**HCCLOG**](https://github.com/hnamhocit/hcclog)
 - A simple colorful logging library for javascript with typescript support
 - ![Code](https://github.com/hnamhocit/hcclog/blob/main/previews/2.png)
 - ![Preview](https://github.com/hnamhocit/hcclog/blob/main/previews/1.png)

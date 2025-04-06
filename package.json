@@ -1,13 +1,12 @@
 {
   "name": "hcclog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "previews"
+    "dist"
   ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
