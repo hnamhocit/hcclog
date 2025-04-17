@@ -1,14 +1,15 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "declaration": true, // Enable generation of .d.ts files
-    "outDir": "./dist", // Output directory for compiled files
-    "rootDir": "./src", // Source directory
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
-  },
-  "include": ["src/**/*"], // Include all TypeScript files in src/
-  "exclude": ["node_modules"] // Exclude dependencies
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"declaration": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"moduleResolution": "nodenext"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
 }
