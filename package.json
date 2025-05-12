@@ -2,7 +2,7 @@
 	"name": "hcclog",
 	"version": "1.0.6",
 	"type": "module",
-	"main": "dist/index.esm.js",
+	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
 	"types": "dist/index.d.ts",
 	"files": [
@@ -11,11 +11,11 @@
 	"devDependencies": {
 		"@rollup/plugin-typescript": "^12.1.2",
 		"@types/bun": "latest",
-		"nodemon": "^3.1.9",
-		"rollup": "^4.39.0",
+		"nodemon": "^3.1.10",
+		"rollup": "^4.40.2",
 		"rollup-plugin-dts": "^6.2.1",
 		"tslib": "^2.8.1",
-		"typescript": "^5.8.2"
+		"typescript": "^5.8.3"
 	},
 	"scripts": {
 		"build": "rollup -c",
