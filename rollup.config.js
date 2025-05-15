@@ -6,7 +6,7 @@ export default [
 		input: 'src/index.ts',
 		output: [
 			{
-				file: 'dist/index.js',
+				file: 'dist/index.cjs.js', // <- clearly CommonJS
 				format: 'cjs',
 				sourcemap: true,
 			},
@@ -18,7 +18,6 @@ export default [
 		],
 		plugins: [typescript({ tsconfig: './tsconfig.json' })],
 	},
-
 	{
 		input: 'src/index.ts',
 		output: {
